@@ -1,9 +1,9 @@
 <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 100 100"> 
     <circle id="testCircle" cx="50" cy="50" r="40" fill="blue" /> 
     <script type="text/javascript"> 
-        var testCircle= docume.getElementById(‘testCircle’); 
-        circle.addEventListener(‘click’, function() { 
-            circle.setAttribute(‘fill’, ‘red’) 
+        var testCircle= document.getElementById('testCircle'); 
+        testCircle.addEventListener('click', function() { 
+            testCircle.setAttribute('fill', 'red') 
         }); 
     </script> 
 </svg> 
